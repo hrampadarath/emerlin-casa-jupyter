@@ -5,6 +5,10 @@ Here I describe steps required to set up your very own jupyter-casa notebook on 
 
 This project and tutorial is based upon the [original version  by  Tammo Jan Dijkema from ASTRON](http://taql.astron.nl/user/KvWQzf7HKYVW/notebooks/vla-cont-tutorial.ipynb).
 
+## The eMERLIN casa-jupyter noteook:
+
+http://jupyter.jb.man.ac.uk:8000
+
 ## Step 1: Build the casa-jupyter notebook
 
 1. install Docker (latest version!)
