@@ -1,6 +1,6 @@
 # Guide on setting up a CASA Jupyter Notebook server
 
-Here I describe steps required to set up your very own jupyter-casa notebook on your server that can be used as a teaching tool for Radio Astronomy. The casa-jupyter server is built using the [jupyter-casa docker image](https://github.com/aardk/jupyter-casa) by Aard Keimpema from the Joint Institute of VLBI ERIC (JIVE), and wrapped within the [tmpnb "temporary" Jupyter notebook server.](https://github.com/jupyter/tmpnb) 
+Here I describe steps required to set up your very own jupyter-casa notebook on your server that can be used as a teaching tool for Radio Astronomy. The casa-jupyter server is built using the [jupyter-casa docker image](https://github.com/aardk/jupyter-casa) by Aard Keimpema from the Joint Institute of VLBI ERIC (JIVE), and wrapped within the [tmpnb "temporary" Jupyter notebook server](https://github.com/jupyter/tmpnb).
 
 
 This project and tutorial is based upon the [original version  by  Tammo Jan Dijkema from ASTRON](http://taql.astron.nl/user/KvWQzf7HKYVW/notebooks/vla-cont-tutorial.ipynb).
