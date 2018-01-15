@@ -23,6 +23,8 @@ http://jupyter.jb.man.ac.uk:8000
 
 ## Step 1b (Optional): Download the notebook and data provided in this github
 
+If you rather just test out the server, then you can use the notebook provided in this repository.
+
 1. Download the contents of this repository. (untar the Answers.tar file)
 2. Download the raw dataset and calibrator: 
    1. (The Measurement Set) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg.ms.tar
