@@ -1,4 +1,4 @@
-# Guide on setting up a CASA Jupyter Notebook srver
+# Guide on setting up a CASA Jupyter Notebook server
 
 ## Step 1: Build the casa-jupyter notebook
 
@@ -33,9 +33,10 @@ An example file is given in this repository. If you are using your own data, rep
    1. export TOKEN=$( head -c 30 /dev/urandom | xxd -p )
    2. sudo docker run --restart=always --net=host -d -e CONFIGPROXY_AUTH_TOKEN=$TOKEN --name=proxycasa jupyter/configurable-http-proxy --default-target http://127.0.0.1:9999 --port 80
    3. sudo docker run --restart=always --net=host -d -e CONFIGPROXY_AUTH_TOKEN=$TOKEN --name=tmpnbcasa -v /var/run/docker.sock:/docker.sock jupyter/tmpnb python orchestrate.py --image=myjupytercasa --port=9999 --admin-port=10000 --pool-size=5 --redirect-uri=/notebooks/eMERLIN_Basic_Calibration_Tutorial.ipynb --command="Xvfb :102 -ac & jupyter notebook --no-browser --port {port} --ip=0.0.0.0 --NotebookApp.base_url=/{base_path} --NotebookApp.port_retries=0"
-
 6. Confirm the container is running via sudo docker ps. You may need to wait about 20-30 seconds
 7. Point your browser to 127.0.0.1:8000
+
+Note: Steps 4 and 5 can be executed using the bash script runfile.sh provided in this repository 
 
 ## To get the notebook viewed online:
 
