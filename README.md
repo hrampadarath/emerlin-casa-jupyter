@@ -5,9 +5,9 @@
 1. install Docker (latest version!)
 2. start Docker in the background: sudo systemctl start docker
 3. download the casa-jupyter docker image: docker pull penngwyn/jupytercasa
-4. Run the docker container: docker run --rm -p 8888:8888 -i -t -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -v PATH_TO_DATA_DIR:/home/jupyter/data penngwyn/jupytercasa /bin/sh -c "jupyter notebook"
-
-Note: replace PATH_TO_DATA_DIR with the path to the data
+4. Run the docker container: 
+  1. docker run --rm -p 8888:8888 -i -t -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -v PATH_TO_DATA_DIR:/home/jupyter/data penngwyn/jupytercasa /bin/sh -c "jupyter notebook"
+  2. Note: replace PATH_TO_DATA_DIR with the path to the data
 5. Open a new casa notebook and build the casa jupyter notebook
 6. Save the notebook somewhere on your computer using File > Download as > Notebook (.ipynb)
 
@@ -16,9 +16,9 @@ Note: replace PATH_TO_DATA_DIR with the path to the data
 
 1. Download the contents of this repository. (untar the Answers.tar file)
 2. Download the raw dataset and calibrator: 
-  1. [The Measurement Set] wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg.ms.tar
-  2. [Flux calibrator] wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/3C286_C.clean.model.tt0.tgz
-  3. [Flag file] wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg_1.flags
+  1. (The Measurement Set) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg.ms.tar
+  2. (Flux calibrator) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/3C286_C.clean.model.tt0.tgz
+  3. (Flag file) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg_1.flags
 3. Place all in the same folder and proceed to Step 2
 
 ## Step 2: Create the Docker container and run using tmpnb 
