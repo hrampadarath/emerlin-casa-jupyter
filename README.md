@@ -16,9 +16,9 @@
 
 1. Download the contents of this repository. (untar the Answers.tar file)
 2. Download the raw dataset and calibrator: 
-  1. (The Measurement Set) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg.ms.tar
-  2. (Flux calibrator) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/3C286_C.clean.model.tt0.tgz
-  3. (Flag file) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg_1.flags
+   1. (The Measurement Set) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg.ms.tar
+   2. (Flux calibrator) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/3C286_C.clean.model.tt0.tgz
+   3. (Flag file) wget -c http://almanas.jb.man.ac.uk/hayden/jupyter-casa/all_avg_1.flags
 3. Place all in the same folder and proceed to Step 2
 
 ## Step 2: Create the Docker container and run using tmpnb 
