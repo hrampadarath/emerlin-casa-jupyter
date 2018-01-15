@@ -34,8 +34,10 @@ If you rather just test out the server, then you can use the notebook provided i
 
 ## Step 2: Create the Docker container and run using tmpnb 
 
+If you are following from Step 1b, ignore 2 and 3 below
+
 1. Downlad the tmpnb docker image: docker pull jupyter/minimal-notebook
-2. Create a folder and place all the files you will need for your notebook e.g. the .ipynb notebbok, data, flag tabels etc
+2. Create a folder and place all the files you will need for your notebook e.g. the .ipynb notebook, data, flag tabels etc
 3. Create a text file called Dockerfile. Everytime a user runs a notebook, they will be given their own "virtual-machine" with 
 the data, notebook and casa. This file generates a docker container with the instructions to copy the data and notebook into the "virtual-machine"
 An example file is given in this repository. If you are using your own data, replace the COPY and RUN commands as needed.
