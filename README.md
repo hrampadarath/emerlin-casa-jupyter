@@ -9,7 +9,7 @@ This project and tutorial is based upon the [original version  by  Tammo Jan Dij
 
 http://jupyter.jb.man.ac.uk:8000
 
-## Step 1: Build the casa-jupyter notebook
+## Step 1a: Build the casa-jupyter notebook
 
 1. install Docker (latest version!)
 2. start Docker in the background: sudo systemctl start docker
@@ -21,7 +21,7 @@ http://jupyter.jb.man.ac.uk:8000
 6. Save the notebook somewhere on your computer using File > Download as > Notebook (.ipynb)
 
 
-## Step 1 (Optional): Download the notebook and data provided in this github
+## Step 1b (Optional): Download the notebook and data provided in this github
 
 1. Download the contents of this repository. (untar the Answers.tar file)
 2. Download the raw dataset and calibrator: 
