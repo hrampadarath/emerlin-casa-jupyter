@@ -7,7 +7,7 @@ This project and tutorial is based upon the [original version  by  Tammo Jan Dij
 
 ## The eMERLIN casa-jupyter notebook:
 
-http://jupyter.jb.man.ac.uk:8000
+http://jupyter.jb.man.ac.uk:8000 (currently viewable internally at JBCA)
 
 ## Step 1a: Build the casa-jupyter notebook
 
@@ -53,7 +53,6 @@ Note: Steps 4 and 5 can be executed using the bash script runfile.sh provided in
 
 ## To get the notebook viewed online:
 
-open the port 8000 and view using: your-ip-address:8000
 
 ## Notes:
 
